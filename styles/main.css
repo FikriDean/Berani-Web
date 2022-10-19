@@ -77,9 +77,9 @@ Updated:    03/2022
 /*-----------------------------------------------------------------------------------------*/
 :root {
   /* primary color */
-  --primary-h: 24;
-  --primary-s: 74%;
-  --primary-l: 58%;
+  --primary-h: 0;
+  --primary-s: 100%;
+  --primary-l: 50%;
   --primary-color: var(--primary-h), var(--primary-s), var(--primary-l);
   /* secondary color */
   --secondary-h: 13;
@@ -2897,6 +2897,8 @@ html[dir=rtl] .notifications-container .notify-leave-active {
     width: 80%;
     background-color: hsl(var(--main-color-one));
     border-radius: 50%;
+    background: -webkit-gradient(linear, left top, right top, from(hsl(357.27, 79.2%, 50.98%)), to(hsl(357.27, 79.2%, 50.98%)));
+    background: linear-gradient(to right, hsl(357.27, 79.2%, 50.98%) 0%, hsl(357.27, 79.2%, 50.98%) 100%);
   }
   html[dir=ltr] .hero-section .hero-img .layer:first-of-type:before {
     left: 50%;
