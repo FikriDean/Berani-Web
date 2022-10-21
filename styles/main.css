@@ -77,9 +77,12 @@ Updated:    03/2022
 /*-----------------------------------------------------------------------------------------*/
 :root {
   /* primary color */
-  --primary-h: 0;
-  --primary-s: 100%;
-  --primary-l: 50%;
+  /* --primary-h: 24;
+  --primary-s: 74%;
+  --primary-l: 58%; */
+  --primary-h: 357.27;
+  --primary-s: 79.2%;
+  --primary-l: 50.98%;
   --primary-color: var(--primary-h), var(--primary-s), var(--primary-l);
   /* secondary color */
   --secondary-h: 13;
@@ -2341,8 +2344,10 @@ header .options-icons .theme-switcher button:after {
 }
 header .options-icons .theme-switcher button.light_theme:after {
   left: 23px;
-  -webkit-box-shadow: 22px -20px #f9d71c inset;
-          box-shadow: 22px -20px #f9d71c inset;
+  /* -webkit-box-shadow: 22px -20px #f9d71c inset;
+          box-shadow: 22px -20px #f9d71c inset; */
+  -webkit-box-shadow: 22px -20px hsl(var(--primary-color)) inset;
+  box-shadow: 22px -20px hsl(var(--primary-color)) inset;
 }
 header .options-icons .theme-switcher button.dark_theme:after {
   left: 3px;
@@ -2875,8 +2880,8 @@ html[dir=rtl] .notifications-container .notify-leave-active {
     left: 0;
     height: 100%;
     width: 100%;
-    background: -webkit-gradient(linear, left top, right top, from(hsl(357.27,79.2%,50.98%)), to(hsl(357.27,79.2%,50.98%)));
-    background: linear-gradient(to right, hsl(357.27,79.2%,50.98%) 0%, hsl(357.27,79.2%,50.98%) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(hsl(var(--main-color-one))), to(hsl(var(--main-color-one))));
+    background: linear-gradient(to right, hsl(var(--main-color-one)) 0%, hsl(var(--main-color-one)) 100%);
   }
 }
 @media (max-width: 991px) {
@@ -2897,8 +2902,6 @@ html[dir=rtl] .notifications-container .notify-leave-active {
     width: 80%;
     background-color: hsl(var(--main-color-one));
     border-radius: 50%;
-    background: -webkit-gradient(linear, left top, right top, from(hsl(357.27, 79.2%, 50.98%)), to(hsl(357.27, 79.2%, 50.98%)));
-    background: linear-gradient(to right, hsl(357.27, 79.2%, 50.98%) 0%, hsl(357.27, 79.2%, 50.98%) 100%);
   }
   html[dir=ltr] .hero-section .hero-img .layer:first-of-type:before {
     left: 50%;
