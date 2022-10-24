@@ -487,9 +487,9 @@
             ar: 'من أنا'
           }
         }, {
-          url: '#skills',
+          url: '#products',
           title: {
-            en: 'Skills',
+            en: 'Products',
             ar: 'مهاراتي'
           }
         }, {
