@@ -3891,7 +3891,7 @@ html[dir=rtl] .portfolio-section .section-content .portfolio-items .works-filter
 }
 @media (max-width: 767px) {
   .testimonials-section .section-content .testimonials-items {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 @media (max-width: 576px) {
@@ -3936,19 +3936,19 @@ html[dir=rtl] .portfolio-section .section-content .portfolio-items .works-filter
   justify-self: flex-end;
 }
 .testimonials-section .section-content .testimonials-items li:nth-of-type(5n + 2) img {
-  width: 200px;
+  width: 130px;
 }
 .testimonials-section .section-content .testimonials-items li:nth-of-type(5n + 1) {
   justify-self: center;
 }
 .testimonials-section .section-content .testimonials-items li:nth-of-type(5n + 1) img {
-  width: 90px;
+  width: 110px;
 }
 .testimonials-section .section-content .testimonials-items li:nth-of-type(5n + 3) {
   justify-self: flex-end;
 }
 .testimonials-section .section-content .testimonials-items li:nth-of-type(5n + 3) img {
-  width: 70px;
+  width: 130px;
 }
 .testimonials-section .section-content .testimonials-items li:nth-of-type(5n + 4) {
   justify-self: flex-start;
