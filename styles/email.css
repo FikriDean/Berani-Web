@@ -1,0 +1,14 @@
+input{
+    display: block;
+    height: 30px;
+    border-radius: 10px;
+    color: black;
+}
+
+
+textarea {
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: black;
+}
