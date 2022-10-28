@@ -106,7 +106,7 @@
 							<ul class="nav-links">
 								<li v-for="link in navLinks" :key="link.url">
 									<a :href="link.url" @click="closeNavMenu">
-										{{ link.title.en }}
+										{{ link.title.id }}
 									</a>
 								</li>
 							</ul>
@@ -174,14 +174,14 @@
 							<li class="lang-switcher">
 								<ul class="lang-switcher-menu">
 									<li class="menu-item menu-item-has-children">
-										<a href="#">En</a>
+										<a href="#">Id</a>
 
 										<ul class="sub-menu">
 											<li class="menu-item">
-												<a href="index.html">En</a>
+												<a href="index.html">Id</a>
 											</li>
 											<li class="menu-item">
-												<a href="rtl-index.html">ع</a>
+												<a href="en-index.html">En</a>
 											</li>
 										</ul>
 									</li>
@@ -494,12 +494,12 @@
 												<h3>{{ item.date }}</h3>
 												<div class="ultimate-tooltip">
 													<h4 class="ultimate-tooltip-title">
-														{{ item.companyName.en }}
+														{{ item.companyName.id }}
 													</h4>
 													<h5 class="ultimate-tooltip-subtitle">
-														{{ item.jobTitle.en }}
+														{{ item.jobTitle.id }}
 													</h5>
-													<p>{{ item.desc.en }}</p>
+													<p>{{ item.desc.id }}</p>
 												</div>
 												<div class="ultimate-tooltip-arrow"></div>
 											</template>
@@ -572,15 +572,15 @@
 								<li
 									class="portfolio-item"
 									v-for="work in filteredPortfolioItems"
-									:key="work.title.en"
+									:key="work.title.id"
 								>
 									<a :href="work.url" target="_blank" rel="noopener">
 										<div class="item-img">
-											<img :src="work.imgUrl" :alt="work.title.en" />
+											<img :src="work.imgUrl" :alt="work.title.id" />
 										</div>
 										<div class="item-details">
-											<h3 class="title">{{ work.title.en }}</h3>
-											<div class="date">{{ work.date.en }}</div>
+											<h3 class="title">{{ work.title.id }}</h3>
+											<div class="date">{{ work.date.id }}</div>
 										</div>
 									</a>
 								</li>
@@ -621,22 +621,22 @@
 								class="has-ultimate-tooltip"
 								tabindex="0"
 								v-for="item in testimonialsItems"
-								:key="item.quoteAuthor.en"
+								:key="item.quoteAuthor.id"
 							>
 								<div class="testimonials-item">
 									<div class="testimonial-author-img">
 										<img
 											:src="item.imgUrl || 'assets/images/testimonials/anonymous-user.png'"
-											:alt="item.quoteAuthor.en"
+											:alt="item.quoteAuthor.id"
 										/>
 									</div>
 									<div class="ultimate-tooltip">
-										<p>{{ item.quoteContent.en }}</p>
+										<p>{{ item.quoteContent.id }}</p>
 										<h4 class="ultimate-tooltip-title">
-											{{ item.quoteAuthor.en }}
+											{{ item.quoteAuthor.id }}
 										</h4>
 										<h5 class="ultimate-tooltip-subtitle">
-											{{ item.jobTitle.en }}
+											{{ item.jobTitle.id }}
 										</h5>
 									</div>
 									<div class="ultimate-tooltip-arrow"></div>
@@ -949,7 +949,6 @@
 				</div>
 			</div>
 		</div>
-
 		<!-- js plugins file -->
 		<script src="scripts/plugins.min.js"></script>
 
